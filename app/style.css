@@ -5,12 +5,34 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
     margin: 0;
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     overflow: hidden;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: darksalmon;
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
+    bottom: 20px;
+    font-size: 18px;
+    position: absolute;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 50px;
+    padding: 5px;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    background-color: darksalmon;
+}
+
+input:focus {
+    outline: none;
 }
